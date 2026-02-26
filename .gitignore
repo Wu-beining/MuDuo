@@ -1,0 +1,44 @@
+# Data files
+*.nii.gz
+*.nii
+*.mha
+
+# PDF
+*.pdf
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# TensorBoard
+runs/
+log/
+
+# Temp
+*.tmp
+*.bak
+
+# Range template
+README范本.md
