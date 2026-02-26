@@ -413,20 +413,13 @@ $$\mathcal{L}_{total} = \mathcal{L}_{sup} + \lambda(t) \cdot \mathcal{L}_{cons}$
 
 ---
 
-## 📬 Citation
 
-如果本项目对您的研究有帮助，请引用：
 
-```bibtex
-@inproceedings{muduo2026miccai,
-  title={MuDuo: Mutual Distillation with Dual Foundation Models for Semi-supervised PET/CT Organ Segmentation},
-  author={Anonymized},
-  booktitle={Medical Image Computing and Computer Assisted Intervention (MICCAI)},
-  year={2026}
-}
-```
+
 
 ## 🙏 Acknowledgement
+
+我们的代码改编自SAM-Med3D、SegAnyPET和SSL4MIS。我们感谢所有作者的贡献
 
 - [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) — 半监督医学图像分割基准框架
 - [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D) — 通用 3D 医学图像分割基础模型
@@ -436,6 +429,5 @@ $$\mathcal{L}_{total} = \mathcal{L}_{sup} + \lambda(t) \cdot \mathcal{L}_{cons}$
 
 ---
 
-## 📄 License
 
-This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
+
