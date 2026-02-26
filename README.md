@@ -273,34 +273,6 @@ python train_fully_supervised_3D.py --root_path /data/autopet --labeled_num 10
 
 ## 📊 实验结果
 
-### 主要对比实验
-
-<table>
-  <thead>
-    <tr>
-      <th rowspan="2">Method</th>
-      <th colspan="4">5 Labeled</th>
-      <th colspan="4">10 Labeled</th>
-      <th colspan="4">20 Labeled</th>
-    </tr>
-    <tr>
-      <th>Dice↑</th><th>RAVD↓</th><th>ASD↓</th><th>HD95↓</th>
-      <th>Dice↑</th><th>RAVD↓</th><th>ASD↓</th><th>HD95↓</th>
-      <th>Dice↑</th><th>RAVD↓</th><th>ASD↓</th><th>HD95↓</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>MuDuo (Ours)</strong></td>
-      <td><strong>46.93</strong></td><td><strong>37.0</strong></td><td><strong>23.7</strong></td><td><strong>8.50</strong></td>
-      <td><strong>Best</strong></td><td><strong>Best</strong></td><td><strong>Best</strong></td><td><strong>Best</strong></td>
-      <td><strong>Best</strong></td><td><strong>Best</strong></td><td><strong>Best</strong></td><td><strong>Best</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-> **关键发现**: 在仅 5 个标注样本的极端设置下，MuDuo 取得 **46.93% Dice**，HD95 降至 **8.50 体素**，较 SemiSAM+ 降低 **41%**。10 标注样本下，半监督 MuDuo **超越双模态全监督基线约 9%**。
-
 ### 消融实验（5 Labeled Cases）
 
 <table>
