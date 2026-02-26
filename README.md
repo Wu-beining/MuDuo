@@ -166,19 +166,6 @@ data/autopet/
     └── val.txt
 ```
 
-### 标签编码
-
-| 值 | 器官 | 值 | 器官 |
-|----|------|----|----|
-| 0 | 背景 (Background) | 7 | 前列腺 (Prostate) |
-| 1 | 肝脏 (Liver) | 8 | 左肺下叶 (Left Lung Lower) |
-| 2 | 左肾 (Left Kidney) | 9 | 右肺下叶 (Right Lung Lower) |
-| 3 | 右肾 (Right Kidney) | 10 | 左肺上叶 (Left Lung Upper) |
-| 4 | 心脏 (Heart) | 11 | 右肺上叶 (Right Lung Upper) |
-| 5 | 脾脏 (Spleen) | 12 | 右肺中叶 (Right Lung Middle) |
-| 6 | 主动脉 (Aorta) | | |
-
----
 
 ## 🔗 预训练权重
 
