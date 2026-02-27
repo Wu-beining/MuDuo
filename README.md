@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <em>基于双基础模型互蒸馏的半监督 PET/CT 器官分割框架 — MICCAI 2026</em>
+  <em>基于双基础模型互蒸馏的半监督 PET/CT 器官分割框架  — MICCAI 2026</em>
 </p>
 
 <p align="center">
